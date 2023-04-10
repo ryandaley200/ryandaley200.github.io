@@ -1,0 +1,43 @@
+body{
+    background: rgb(80, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-decoration-color: antiquewhite;
+}
+.assignments{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.assignment{
+    width: 22%;
+    padding: 10px;
+    margin: 10px;
+    padding: 10px;
+    background: #7C0000;
+    border-radius: 25px;
+
+
+}
+assignment img:hover {
+    border: 3px solid #F2D888;
+}
+.assignment img{
+    width:250px;
+    margin: 10px;
+    border: 3px solid black;
+    display: block;
+    margin:auto;
+}
+h1{
+    color: #F2D888;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #F2D888;
+}
+a:hover{
+    color:white;
+}
